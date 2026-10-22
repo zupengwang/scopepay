@@ -68,7 +68,7 @@ React, Vite, JavaScript, Node.js, SQLite, Zod, Lucide, Qwen, llama.cpp, OpenAI-c
 ## Links to fill after publication
 
 - Public source repository: https://github.com/zupengwang/scopepay
-- Public YouTube demo, less than 3 minutes: **PENDING**
+- Public YouTube demo, less than 3 minutes: https://www.youtube.com/watch?v=Cb6p385zfuA
 - Runnable build: follow JUDGE_QUICKSTART.md (no hosted demo)
 - Judge setup instructions: repository `JUDGE_QUICKSTART.md` and `README.md`
 

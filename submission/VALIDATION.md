@@ -66,7 +66,7 @@ Checked in a real Chromium browser through an SSH tunnel to the remote server:
 ## Publication status
 
 - Public repository: https://github.com/zupengwang/scopepay (publication authorized by the owner).
-- Public YouTube URL for the completed local demo video.
-- Completed Devpost submission.
+- Public YouTube demo: https://www.youtube.com/watch?v=Cb6p385zfuA (published October 22, 2026 with English captions).
+- Devpost submission: in preparation.
 
 The passed automated tests do not establish real API connectivity, payment provider acceptance, model quality, public deployment availability, or any official competition result.

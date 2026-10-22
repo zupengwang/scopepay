@@ -4,6 +4,10 @@
 
 ScopePay is a single-studio quoting workspace built for the PayPal AI Hackathon 2026. An AI assistant maps a client's request to a fixed service catalog and identifies missing scope. The server calculates prices, the merchant reviews and locks the quote, and the client pays through PayPal sandbox. A payment is marked complete only after the server verifies the capture against the approved quote.
 
+## Demo
+
+[Watch the 2-minute-18-second demo on YouTube](https://www.youtube.com/watch?v=Cb6p385zfuA). English narration and captions show the same AI quote from merchant correction through a verified PayPal sandbox receipt. Buyer sign-in and approval happened off-screen and are identified in the video.
+
 ## Run locally
 
 Requirements: Node.js **24.13+**, npm, a PayPal **sandbox** application, and access to an Anthropic Messages or OpenAI-compatible Chat Completions endpoint. Node 24.22.1 was used on the remote development host. A GPU is not required by this application.
