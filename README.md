@@ -6,7 +6,7 @@ ScopePay is a single-studio quoting workspace built for the PayPal AI Hackathon 
 
 ## Demo
 
-[Watch the 2-minute-18-second demo on YouTube](https://www.youtube.com/watch?v=Cb6p385zfuA). English narration and captions show the same AI quote from merchant correction through a verified PayPal sandbox receipt. Buyer sign-in and approval happened off-screen and are identified in the video.
+[Watch the 2-minute-31-second demo on YouTube](https://www.youtube.com/watch?v=1z_IK5Y8bRY). English narration and captions show the same AI quote from merchant correction through a verified PayPal sandbox receipt. Buyer sign-in and approval happened off-screen and are identified in the video.
 
 ## Run locally
 

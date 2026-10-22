@@ -1,6 +1,6 @@
 # Devpost submission copy
 
-**Operator note — do not paste:** The English story below is ready. The final demo follows AI quote A1B1CF through merchant correction, approval, and a verified $900.00 USD PayPal sandbox capture. Public repository and YouTube URLs still need publication; this file is not a submission receipt.
+**Operator note — do not paste:** The English story below is ready. The final demo follows AI quote A1B1CF through merchant correction, approval, and a verified $900.00 USD PayPal sandbox capture. The public repository and demo are linked below. This source document is not proof of completed Devpost submission.
 
 ## Project name
 
@@ -68,7 +68,7 @@ React, Vite, JavaScript, Node.js, SQLite, Zod, Lucide, Qwen, llama.cpp, OpenAI-c
 ## Links to fill after publication
 
 - Public source repository: https://github.com/zupengwang/scopepay
-- Public YouTube demo, less than 3 minutes: https://www.youtube.com/watch?v=Cb6p385zfuA
+- Public YouTube demo, less than 3 minutes: https://www.youtube.com/watch?v=1z_IK5Y8bRY
 - Runnable build: follow JUDGE_QUICKSTART.md (no hosted demo)
 - Judge setup instructions: repository `JUDGE_QUICKSTART.md` and `README.md`
 
