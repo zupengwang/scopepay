@@ -65,8 +65,9 @@ React, Vite, JavaScript, Node.js, SQLite, Zod, Lucide, Qwen, llama.cpp, OpenAI-c
 
 **Verified sandbox payment:** The demo's AI quote A1B1CF completed buyer approval and capture for $900.00 USD on October 22, 2026. A provider read confirmed one completed capture, matching the application's paid receipt. Buyer approval occurred off-screen; the video shows the real application before and after that step. A separate earlier example-quote test verified that two repeated application callbacks returned the same receipt without adding captures.
 
-## Links to fill after publication
+## Published links
 
+- Devpost project: https://devpost.com/software/scopepay-6uk1or
 - Public source repository: https://github.com/zupengwang/scopepay
 - Public YouTube demo, less than 3 minutes: https://www.youtube.com/watch?v=1z_IK5Y8bRY
 - Runnable build: follow JUDGE_QUICKSTART.md (no hosted demo)

@@ -67,6 +67,8 @@ Checked in a real Chromium browser through an SSH tunnel to the remote server:
 
 - Public repository: https://github.com/zupengwang/scopepay (publication authorized by the owner).
 - Public YouTube demo: https://www.youtube.com/watch?v=1z_IK5Y8bRY (published October 22, 2026 with English captions).
-- Devpost submission: in preparation.
+- Devpost submission: completed on October 22, 2026. The platform displayed “Project submitted!” and “SUBMITTED TO PayPal AI Hackathon”. Project: https://devpost.com/software/scopepay-6uk1or
+- The replacement video was published with Microsoft Andrew neural narration and English captions. Embedded playback was verified on Devpost at 49 seconds of the 2-minute-31-second video.
+- The source ZIP attached at submission contains the application and documentation from commit `61e9d615828a5ef3fa0aa3258c22de8a0ac375c8`. Later publication-record edits do not change the application.
 
 The passed automated tests do not establish real API connectivity, payment provider acceptance, model quality, public deployment availability, or any official competition result.
