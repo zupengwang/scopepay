@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-22T11:41:53.596Z",
+  "providerState": "PAYER_ACTION_REQUIRED",
+  "appState": "CHECKOUT",
+  "expectedAmount": "900.00",
+  "currency": "USD",
+  "referenceMatches": true,
+  "amountMatches": true,
+  "payerPresent": false,
+  "captureStates": [],
+  "captureVerified": false,
+  "receiptStored": false,
+  "observedBrowserError": "CANNOT_PAY_SELF"
+}

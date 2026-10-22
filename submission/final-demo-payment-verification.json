@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-22T12:10:28.034Z",
+  "quoteId": "a1b1cf30-2411-41b5-bc1c-03fafe6b657c",
+  "provider": "ai",
+  "model": "qwen3-coder-30b-a3b-instruct",
+  "title": "Daybreak Coffee Website and Launch Graphics",
+  "brief": "We are launching Daybreak Coffee. Please build one responsive landing page with up to six sections, write up to 700 words of original website copy, and design five static Instagram launch graphics in one visual direction. We will supply our finished brand assets and factual business details, but we have no finished website copy. One revision round per deliverable is enough. No hosting, domain, maintenance, or online store is required.",
+  "items": [
+    {
+      "serviceId": "landing",
+      "quantity": 1,
+      "lineCents": 60000
+    },
+    {
+      "serviceId": "copy",
+      "quantity": 1,
+      "lineCents": 18000
+    },
+    {
+      "serviceId": "social",
+      "quantity": 1,
+      "lineCents": 12000
+    }
+  ],
+  "totalCents": 90000,
+  "currency": "USD",
+  "providerState": "COMPLETED",
+  "appState": "PAID",
+  "captureCount": 1,
+  "receiptMatches": true,
+  "receipt": {
+    "captureId": "7KJ68783N07808125",
+    "amount": "900.00",
+    "currency": "USD",
+    "paidAt": "2026-10-22T12:10:10Z"
+  },
+  "events": [
+    {
+      "type": "created",
+      "at": "2026-10-22T12:00:35.783Z",
+      "description": "AI proposed a scope; the server priced it from the service catalog."
+    },
+    {
+      "type": "revised",
+      "at": "2026-10-22T12:02:35.470Z",
+      "description": "Merchant updated the scope; amounts were recalculated from the catalog."
+    },
+    {
+      "type": "approved",
+      "at": "2026-10-22T12:02:42.072Z",
+      "description": "Merchant reviewed the scope and locked the quote for customer checkout."
+    },
+    {
+      "type": "checkout",
+      "at": "2026-10-22T12:03:43.045Z",
+      "description": "PayPal sandbox checkout opened for the approved amount."
+    },
+    {
+      "type": "paid",
+      "at": "2026-10-22T12:10:11.542Z",
+      "description": "PayPal sandbox capture verified against the locked quote amount and reference."
+    }
+  ]
+}

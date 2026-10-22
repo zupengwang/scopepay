@@ -1,0 +1,182 @@
+{
+  "at": "2026-10-22T11:34:59.210Z",
+  "kind": "three-case development check; not an official benchmark",
+  "passed": 3,
+  "count": 3,
+  "results": [
+    {
+      "name": "A café launch",
+      "passed": true,
+      "checks": {
+        "exactCatalogItems": true,
+        "exactTotal": true,
+        "questionsWhenNeeded": true
+      },
+      "latencyMs": 26737,
+      "proposal": {
+        "scopeStatus": "ready",
+        "title": "Daybreak Coffee Launch Package",
+        "summary": "Responsive landing page with copywriting and five Instagram launch graphics for Daybreak Coffee. Brand assets are already complete.",
+        "assumptions": [
+          "The client has completed brand identity including wordmark, color palette, and typography guide",
+          "The client will provide any necessary copy for the landing page",
+          "The landing page will have up to 6 sections as standard",
+          "The social graphics will follow the existing brand guidelines",
+          "No ongoing maintenance or hosting services are required"
+        ],
+        "items": [
+          {
+            "id": "landing",
+            "name": "Landing page",
+            "unit": "page",
+            "unitCents": 60000,
+            "description": "One responsive landing page, up to 6 sections. Includes design and implementation; excludes copywriting, hosting and domain fees.",
+            "serviceId": "landing",
+            "quantity": 1,
+            "rationale": "Client requested one responsive landing page for the coffee brand launch",
+            "lineCents": 60000
+          },
+          {
+            "id": "copy",
+            "name": "Website copywriting",
+            "unit": "page",
+            "unitCents": 18000,
+            "description": "Up to 700 words of original copy for one web page.",
+            "serviceId": "copy",
+            "quantity": 1,
+            "rationale": "Client requested copywriting for the landing page they are launching",
+            "lineCents": 18000
+          },
+          {
+            "id": "social",
+            "name": "Social launch pack",
+            "unit": "pack",
+            "unitCents": 12000,
+            "description": "Five static social graphics in one visual direction.",
+            "serviceId": "social",
+            "quantity": 1,
+            "rationale": "Client requested five Instagram launch graphics which maps to one social pack",
+            "lineCents": 12000
+          }
+        ],
+        "questions": [],
+        "totalCents": 90000,
+        "currency": "USD"
+      },
+      "model": "qwen3-coder-30b-a3b-instruct",
+      "usage": {
+        "inputTokens": 1087,
+        "outputTokens": 253
+      }
+    },
+    {
+      "name": "A personal brand",
+      "passed": true,
+      "checks": {
+        "exactCatalogItems": true,
+        "exactTotal": true,
+        "questionsWhenNeeded": true
+      },
+      "latencyMs": 22768,
+      "proposal": {
+        "scopeStatus": "ready",
+        "title": "Brand Starter Kit and Landing Page for Design Portfolio",
+        "summary": "Order includes a brand starter kit, one landing page for a design portfolio, a discovery workshop, and two extra revision rounds. All website copy will be provided by the client.",
+        "assumptions": [
+          "The landing page will be a single responsive page with up to 6 sections.",
+          "The brand starter kit includes a wordmark, color palette, and typography guide.",
+          "The discovery session will be a 60-minute strategy session with a written project brief.",
+          "Two extra revision rounds are included beyond the one included in each deliverable.",
+          "The client will provide all website copy for the landing page."
+        ],
+        "items": [
+          {
+            "id": "discovery",
+            "name": "Discovery workshop",
+            "unit": "session",
+            "unitCents": 15000,
+            "description": "One 60-minute strategy session and a written project brief.",
+            "serviceId": "discovery",
+            "quantity": 1,
+            "rationale": "A discovery workshop is requested to establish project strategy and brief.",
+            "lineCents": 15000
+          },
+          {
+            "id": "brand",
+            "name": "Brand starter kit",
+            "unit": "kit",
+            "unitCents": 35000,
+            "description": "A wordmark, color palette and typography guide. No trademark clearance.",
+            "serviceId": "brand",
+            "quantity": 1,
+            "rationale": "A brand starter kit is explicitly requested for the design portfolio.",
+            "lineCents": 35000
+          },
+          {
+            "id": "landing",
+            "name": "Landing page",
+            "unit": "page",
+            "unitCents": 60000,
+            "description": "One responsive landing page, up to 6 sections. Includes design and implementation; excludes copywriting, hosting and domain fees.",
+            "serviceId": "landing",
+            "quantity": 1,
+            "rationale": "One responsive landing page is requested for the design portfolio.",
+            "lineCents": 60000
+          },
+          {
+            "id": "revision",
+            "name": "Extra revision round",
+            "unit": "round",
+            "unitCents": 9000,
+            "description": "One consolidated revision round beyond the one round included in each deliverable.",
+            "serviceId": "revision",
+            "quantity": 2,
+            "rationale": "Two additional revision rounds are explicitly requested beyond the included round.",
+            "lineCents": 18000
+          }
+        ],
+        "questions": [],
+        "totalCents": 128000,
+        "currency": "USD"
+      },
+      "model": "qwen3-coder-30b-a3b-instruct",
+      "usage": {
+        "inputTokens": 1073,
+        "outputTokens": 322
+      }
+    },
+    {
+      "name": "An unclear brief",
+      "passed": true,
+      "checks": {
+        "exactCatalogItems": true,
+        "exactTotal": true,
+        "questionsWhenNeeded": true
+      },
+      "latencyMs": 12059,
+      "proposal": {
+        "scopeStatus": "clarification_required",
+        "title": "Website and Social Media Services",
+        "summary": "Client requests a website and social posts, but has not specified page count, product count, or number of social posts. An online store is also mentioned but details are undecided.",
+        "assumptions": [],
+        "items": [],
+        "questions": [
+          "How many web pages would you like for your website?",
+          "How many products will your online store include?",
+          "How many social posts would you like to create?",
+          "Would you like a brand starter kit for your new venture?",
+          "Would you like a discovery workshop to plan your project?",
+          "Would you like website copywriting for your landing page?",
+          "Would you like a social launch pack for your social media?"
+        ],
+        "totalCents": 0,
+        "currency": "USD"
+      },
+      "model": "qwen3-coder-30b-a3b-instruct",
+      "usage": {
+        "inputTokens": 1074,
+        "outputTokens": 173
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-22T11:50:09.420Z",
+  "providerState": "COMPLETED",
+  "appState": "PAID",
+  "expectedAmount": "900.00",
+  "currency": "USD",
+  "referenceMatches": true,
+  "amountMatches": true,
+  "payerPresent": true,
+  "captureStates": [
+    "COMPLETED"
+  ],
+  "captureVerified": true,
+  "receiptStored": true,
+  "storedReceiptMatches": true,
+  "receipt": {
+    "captureId": "4VR026808H2209345",
+    "amount": "900.00",
+    "currency": "USD",
+    "paidAt": "2026-10-22T11:49:57Z"
+  },
+  "replay": {
+    "checkedAt": "2026-10-22T11:51:26.097Z",
+    "requests": [
+      {
+        "httpStatus": 200,
+        "status": "PAID",
+        "sameReceipt": true
+      },
+      {
+        "httpStatus": 200,
+        "status": "PAID",
+        "sameReceipt": true
+      }
+    ],
+    "beforePaidEvents": 1,
+    "afterPaidEvents": 1,
+    "providerCaptureCount": 1,
+    "sameProviderReceipt": true
+  }
+}
